@@ -1,0 +1,15 @@
+x=input()
+l=x.split()
+n=len(l)
+o=[]
+e=[]
+for i in range(n):
+    if j%2==0:
+       e.append(l[i])
+    else:
+       o.append(l[i])
+print(o,' ',e)
+OUTPUT
+5
+2 4 6 7 3 
+[7 3]   [2 4 6]
